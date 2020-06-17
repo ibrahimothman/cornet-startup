@@ -1,0 +1,182 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+
+p {
+  color: #8f8f8f;
+  width: 80%;
+  margin: 10px auto;
+}
+
+
+
+/* headings */
+.big-headings {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  color: black;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* cards */
+.card-title {
+  font-weight: bold;
+}
+
+/* containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+}
+
+/* nav bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+#title {
+  background-color: #ff4c68;
+  text-align: left;
+
+}
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* download buttons */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* main image */
+
+
+.main-img {
+  width: 60%;
+  transform: rotate(20deg);
+  position: absolute;
+}
+
+/* features */
+#features {
+  position: relative;
+
+}
+
+.feature-title {
+  font-weight: bold;
+}
+
+.feature-item {
+  padding: 0 1%;
+  width:
+
+}
+
+.feature-icon {
+  color: #ef8172;
+  margin-bottom: 1.5rem;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+  margin-bottom: 1.5rem;
+}
+
+
+
+/* testimonials */
+#testimonials {
+  background-color: #ff4c68;
+}
+
+.testimonials-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+
+.testimonial-img {
+  border-radius: 100%;
+  width: 15%;
+  margin: 10px 20px;
+}
+
+/* press */
+#press {
+  background-color: #ff4c68;
+  padding-bottom: 30px;
+
+}
+
+.press-logo {
+  width:15%;
+  margin: 0 30px 20px;
+}
+/* pricing */
+
+
+.pricing-item {
+  padding: 3% 2%;
+}
+
+.pricing-heading {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+/* call to action */
+#cta {
+  background-color: #ff4c68;
+
+}
+
+/* footer */
+
+.social-media {
+  margin: 0 1% 5%;
+}
+
+/* media queties */
+@media (max-width: 990px) {
+  .main-img{
+    transform: rotate(0);
+    position: relative;
+  }
+
+  #title{
+    text-align: center;
+  }
+}

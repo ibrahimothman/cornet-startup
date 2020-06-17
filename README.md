@@ -1,1 +1,1 @@
-# cornet-startup
+TinDog Starting Files
